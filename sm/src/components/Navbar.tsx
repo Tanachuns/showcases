@@ -115,13 +115,13 @@ export default function Navbar({}: Props) {
               <a href="/">Home</a>
             </li>
             <li>
-              <a>About Us</a>
+              <a href="/about">About Us</a>
             </li>
             <li>
-              <a>Products</a>
+              <a href="/products">Products</a>
             </li>
             <li>
-              <a>Contract Us</a>
+              <a href="/contract">Contract Us</a>
             </li>
           </ul>
         </div>

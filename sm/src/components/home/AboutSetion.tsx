@@ -24,6 +24,9 @@ export default function AboutSetion({}: Props) {
       </div>
       <div className="w-1/2 flex justify-center items-center">
         <div className="w-3/4 text-left">
+          <p className=" border-neutral border-l-2 text-xl my-4 pl-3">
+            About Us
+          </p>
           <p className="text-3xl">
             <span
               className=" text-4xl underline"
