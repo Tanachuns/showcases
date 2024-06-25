@@ -37,7 +37,7 @@ export default function AboutSetion({}: Props) {
             is not just an organic ecommerce platform;
           </p>
           <p>
-            It's a commitment to sustainability and health. We curate a diverse
+            It is a commitment to sustainability and health. We curate a diverse
             selection of high-quality organic produce and products, sourced
             directly from responsible farmers and suppliers who share our
             dedication to environmental stewardship.

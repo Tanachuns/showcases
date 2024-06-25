@@ -26,7 +26,7 @@ export default function Contract({}: Props) {
           <div>
             <h1 className="text-5xl font-bold">Get in touch</h1>
             <p>
-              Let's transform lives and drive the growth of a robust
+              Lets transform lives and drive the growth of a robust
               agro-industrial sector in Ghana together!
             </p>
           </div>

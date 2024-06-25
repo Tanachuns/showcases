@@ -34,7 +34,7 @@ export default function Whatwedo({}: Props) {
           <p>
             We strive to make organic living accessible and convenient, offering
             a seamless online shopping experience with doorstep delivery.
-            Whether you're looking for fresh fruits and vegetables, pantry
+            Whether you are looking for fresh fruits and vegetables, pantry
             staples, or eco-friendly household items, GreenGroove is your
             trusted partner in nourishing both body and planet. Join us in
             embracing a greener, healthier lifestyle with every purchase.
