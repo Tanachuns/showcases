@@ -6,8 +6,8 @@ export default function Contract({}: Props) {
   return (
     <div>
       <div className="hero min-h-[350px] bg-[url('https://images.pexels.com/photos/179912/pexels-photo-179912.jpeg')] absolute brightness-50"></div>
-      <div className="hero min-h-[350px] px-36">
-        <div className="hero-content flex justify-between text-primary">
+      <div className="hero min-h-[350px]  p-5 sm:px-36">
+        <div className="hero-content flex justify-between text-primary items-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -24,13 +24,17 @@ export default function Contract({}: Props) {
           </svg>
 
           <div>
-            <h1 className="text-5xl font-bold">Get in touch</h1>
+            <div className="  sm:flex  flex-col">
+              <h1 className="text-5xl font-bold">Get in touch</h1>
+            </div>
             <p>
-              Lets transform lives and drive the growth of a robust
-              agro-industrial sector in Ghana together!
+              Lets transform lives and drive the growth of a Organic Community
+              together!
             </p>
+            <button className="border-red btn btn-neutral btn-sm text-primary my-2 ">
+              Get Start
+            </button>
           </div>
-          <button className="btn btn-neutral text-primary">Get Start</button>
         </div>
       </div>
     </div>
