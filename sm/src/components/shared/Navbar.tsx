@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../images/logo.png";
+import logo from "@/images/logo.png";
 import Image from "next/image";
 
 type Props = {};
@@ -109,7 +109,10 @@ export default function Navbar({}: Props) {
       </footer>
       <div className="min-h-[75px] flex items-center justify-between p-5">
         <div className="flex">
-          <Image src={logo} width={216} height={40} alt="greengroove logo" />
+          <a href="/">
+            <Image src={logo} width={216} height={40} alt="greengroove logo" />
+          </a>
+
           <ul className="menu menu-horizontal sm:flex hidden">
             <li>
               <a href="/">Home</a>
