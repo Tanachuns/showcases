@@ -4,7 +4,7 @@ type Props = { title: string; desc: string; iconD: string };
 
 export default function ObjectiveCard({ title, desc, iconD }: Props) {
   return (
-    <div className="w-[400px] flex">
+    <div className="sm:w-[400px] flex">
       <div className=" px-3">
         <div className="bg-secondary w-24 h-24 flex justify-center items-center rounded-xl">
           <svg

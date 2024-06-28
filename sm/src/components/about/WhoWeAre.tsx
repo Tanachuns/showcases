@@ -34,18 +34,18 @@ export default function WhoWeAre({}: Props) {
           </p>
         </div>
       </div>
-      <div className="bg-primary">
-        <div className="flex w-[1000px] m-auto ">
-          <div className="flex flex-col mx-auto items-start px-[15px] pb-[40px]  w-[400px] border ">
+      <div className="bg-primary p-5 sm:p-16">
+        <div className="flex-col sm:flex-row sm:flex ms:w-[1000px] m-auto ">
+          <div className="flex flex-col mx-auto items-start px-[15px] pb-[40px] sm:mb-0 mb-5  sm:w-[400px] border ">
             <div className="text-center w-full p-5">
               <div className="flex justify-aroundtext-neutral">
                 <img
                   src="https://images.pexels.com/photos/3658482/pexels-photo-3658482.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="mission"
-                  className=" relative top-16 right-20 "
+                  className=" relative top-16 right-5 sm:ight-20 "
                 />
               </div>
-              <div className="relative bg-base-200 p-3 min-h-[250px] z-10">
+              <div className="relative bg-base-200 p-5 min-h-[250px] z-10">
                 <b className=" text-xl font-bold">Mission</b>
                 <br />
                 <br />
@@ -59,16 +59,16 @@ export default function WhoWeAre({}: Props) {
               </div>
             </div>
           </div>
-          <div className="flex flex-col mx-auto items-start px-[15px] pb-[40px]  w-[400px] border ">
+          <div className="flex flex-col mx-auto items-start  px-[15px] pb-[40px] sm:mb-0 mb-5  sm:w-[400px] border  ">
             <div className="text-center w-full p-5">
               <div className="flex justify-aroundtext-neutral">
                 <img
                   src="https://images.pexels.com/photos/169523/pexels-photo-169523.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                   alt="vision"
-                  className=" relative top-16 right-20 "
+                  className=" relative top-16 right-5 sm:ight-20  "
                 />
               </div>
-              <div className="relative bg-base-200 p-2 min-h-[250px] z-10">
+              <div className="relative bg-base-200 p-5 min-h-[250px] z-10">
                 <b className=" text-xl font-bold ">Vision</b>
                 <br />
                 <br />
