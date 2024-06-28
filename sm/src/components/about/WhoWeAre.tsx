@@ -18,7 +18,7 @@ export default function WhoWeAre({}: Props) {
         <div className="sm:w-1/2">
           <p>
             Our commitment to sustainability and health goes beyond mere
-            words—it's the driving force behind everything we do. We
+            words—it&apos;s the driving force behind everything we do. We
             meticulously curate an extensive and diverse selection of
             high-quality organic produce and products, ensuring each item meets
             our rigorous standards. Our sourcing process is both thorough and
@@ -54,7 +54,7 @@ export default function WhoWeAre({}: Props) {
                   high-quality organic products. We partner with responsible
                   farmers and suppliers to promote health and environmental
                   stewardship, ensuring a positive impact on our planet and
-                  customers' well-being.
+                  customers&apos; well-being.
                 </p>
               </div>
             </div>
